@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    background-color: rgb(4, 25, 35);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: rgba(161, 203, 222, 0.599);
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 10px 10px 25px rgba(26, 134, 184, 0.599);
+}
+.flow {
+    display: block; 
+}
+
+.flow .item, 
+.flex .item {
+    
+    border: 1px solid rgba(239, 234, 234, 0.536);
+    margin: 2px;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgba(12, 61, 84, 0.599);
+}
+
+.flow .item {
+    height: 25px;
+}
+
+.flex {
+    display: flex;
+    border: 1px solid white;
+}
+
+.flow, .flex {
+    height: 250px;
+    border: 2px solid rgb(149, 141, 141);
+    border-radius: 6px;
+    padding: 3px;
+}
